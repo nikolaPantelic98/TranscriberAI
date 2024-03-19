@@ -6,6 +6,11 @@ MP4 to SRT Transcriber
 
 This Python project automates the transcription of audio from .mp4 files to .srt (Subtitle) files using the AssemblyAI transcription service. It scans a specified folder for .mp4 files without corresponding .srt files and generates them.
 
+## Requirements
+
+- Python 3.x
+- An AssemblyAI API key
+
 ## Installation
 
 Before running this script, ensure you have Python installed on your system. Then, follow these steps to set up the project:
@@ -62,11 +67,6 @@ cd src && python3 transcriber.py
 
 3. When prompted, enter the final path to the folder containing your .mp4 files.
 4. The script will process each .mp4 file without an existing .srt file and generate the subtitles.
-
-## Requirements
-
-- Python 3.x
-- An AssemblyAI API key
 
 ## Contributing
 
