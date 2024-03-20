@@ -1,1 +1,3 @@
 assemblyai
+tqdm
+moviepy
